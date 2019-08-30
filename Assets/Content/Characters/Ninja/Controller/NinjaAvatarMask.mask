@@ -1,0 +1,475 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NinjaAvatarMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: AR_Root
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_BulletMag_Root_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_BulletMag_Root_Bone/AR_BulletMag_Zero_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_BulletMag_Root_Bone/AR_BulletMag_Zero_Bone/AR_BulletMag_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_EjectionPort_Root_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_EjectionPort_Root_Bone/AR_EjectionPort_Zero_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_EjectionPort_Root_Bone/AR_EjectionPort_Zero_Bone/AR_EjectionPort_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_EjectionPort_Root_Bone/AR_EjectionPort_Zero_Bone/AR_EjectionPort_Bone/AR_ReloadHandle_Root_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_EjectionPort_Root_Bone/AR_EjectionPort_Zero_Bone/AR_EjectionPort_Bone/AR_ReloadHandle_Root_Bone/AR_ReloadHandle_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_Mag_Root_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_Mag_Root_Bone/AR_Mag_Zero_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_Mag_Root_Bone/AR_Mag_Zero_Bone/AR_Mag_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_SlideGrip_Root_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_SlideGrip_Root_Bone/AR_SlideGrip_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_SlideGrip_Root_Bone/AR_SlideGrip_Bone/AR_FrontGrip_Zero_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_SlideGrip_Root_Bone/AR_SlideGrip_Bone/AR_FrontGrip_Zero_Bone/AR_FrontGrip_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_Stock_Zero
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_Stock_Zero/AR_Stock_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_Stock_Zero/AR_Stock_Bone/AR_Stock_End_Zero
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_Stock_Zero/AR_Stock_Bone/AR_Stock_End_Zero/AR_Stock_End_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_Trigger_Root_Bone
+    m_Weight: 0
+  - m_Path: AR_Root/AR_Skeleton/AR_Grip_Bone/AR_Trigger_Root_Bone/AR_Trigger_Bone
+    m_Weight: 0
+  - m_Path: Bullet_Root
+    m_Weight: 1
+  - m_Path: Bullet_Root/Bullet_Geometry
+    m_Weight: 1
+  - m_Path: Bullet_Root/Bullet_Geometry/Shell_Geo1
+    m_Weight: 1
+  - m_Path: Bullet_Root/Bullet_Geometry/Shell_Geo2
+    m_Weight: 1
+  - m_Path: Bullet_Root/Bullet_Skeleton
+    m_Weight: 1
+  - m_Path: Bullet_Root/Bullet_Skeleton/Bullet_Zero
+    m_Weight: 1
+  - m_Path: Bullet_Root/Bullet_Skeleton/Bullet_Zero/Shell_Bone1
+    m_Weight: 1
+  - m_Path: Bullet_Root/Bullet_Skeleton/Bullet_Zero/Shell_Bone2
+    m_Weight: 1
+  - m_Path: LowerBody
+    m_Weight: 0
+  - m_Path: LowerBody/LeftFootIK
+    m_Weight: 0
+  - m_Path: LowerBody/RightFootIK
+    m_Weight: 0
+  - m_Path: models_grp
+    m_Weight: 0
+  - m_Path: models_grp/cloth_grp
+    m_Weight: 0
+  - m_Path: models_grp/cloth_grp/beltcloth_mesh
+    m_Weight: 0
+  - m_Path: models_grp/cloth_grp/ribbon_mesh
+    m_Weight: 0
+  - m_Path: models_grp/cloth_grp/skirt_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/arms_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/belt_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/boots_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/elbowpads_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/forearms_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/hands_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/head_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/headtech_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/kneepads_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/pants_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/scarf_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/shinguards_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/torso_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/waist_mesh
+    m_Weight: 0
+  - m_Path: models_grp/ninja_grp/wristguards_mesh
+    m_Weight: 0
+  - m_Path: models_grp/weapons_grp
+    m_Weight: 0
+  - m_Path: models_grp/weapons_grp/knives_mesh
+    m_Weight: 0
+  - m_Path: Pistol_Root
+    m_Weight: 0
+  - m_Path: Pistol_Root/Pistol_Skeleton
+    m_Weight: 0
+  - m_Path: Pistol_Root/Pistol_Skeleton/P_Grip_Bone
+    m_Weight: 0
+  - m_Path: Pistol_Root/Pistol_Skeleton/P_Grip_Bone/LH_Pistol_Anchor
+    m_Weight: 0
+  - m_Path: Pistol_Root/Pistol_Skeleton/P_Grip_Bone/LH_Pistol_Anchor/LH_Pistol_Zero
+    m_Weight: 0
+  - m_Path: Pistol_Root/Pistol_Skeleton/P_Grip_Bone/P_Bullet_Zero
+    m_Weight: 0
+  - m_Path: Pistol_Root/Pistol_Skeleton/P_Grip_Bone/P_Bullet_Zero/P_Bullet_Bone
+    m_Weight: 0
+  - m_Path: Pistol_Root/Pistol_Skeleton/P_Grip_Bone/P_Bullet_Zero/P_Shell_Bone
+    m_Weight: 0
+  - m_Path: Pistol_Root/Pistol_Skeleton/P_Grip_Bone/P_Mag_Zero
+    m_Weight: 0
+  - m_Path: Pistol_Root/Pistol_Skeleton/P_Grip_Bone/P_Mag_Zero/P_Mag_Bone
+    m_Weight: 0
+  - m_Path: Pistol_Root/Pistol_Skeleton/P_Grip_Bone/P_Slide_Zero
+    m_Weight: 0
+  - m_Path: Pistol_Root/Pistol_Skeleton/P_Grip_Bone/P_Slide_Zero/P_Slide_Bone
+    m_Weight: 0
+  - m_Path: Pistol_Root/Pistol_Skeleton/P_Grip_Bone/P_Trigger_Zero
+    m_Weight: 0
+  - m_Path: Pistol_Root/Pistol_Skeleton/P_Grip_Bone/P_Trigger_Zero/P_Trigger_Bone
+    m_Weight: 0
+  - m_Path: Root
+    m_Weight: 0
+  - m_Path: Root/Displacement
+    m_Weight: 0
+  - m_Path: Root/Displacement/Displacement Arrow
+    m_Weight: 0
+  - m_Path: Root/Hips
+    m_Weight: 1
+  - m_Path: Root/Hips/LeftUpperLeg
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftLowerLeg
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftLowerLeg/LeftFoot
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftLowerLeg/LeftFoot/LeftToes
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftLowerLeg/LeftFoot/LeftToes/LeftToesEnd
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftLowerLeg/LeftKnee
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftUpperLegTwist
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftUpperLegTwist/LeftUpperLegTwist_null
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftUpperLegTwist1
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftUpperLegTwist1_doNotTouch
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftUpperLegTwist1_doNotTouch/LeftUpperLegTwist1_twistInterface
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftUpperLegTwist2
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftUpperLegTwist2_doNotTouch
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftUpperLegTwist2_doNotTouch/LeftUpperLegTwist2_twistInterface
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftUpperLegTwist3
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftUpperLegTwist3_doNotTouch
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftUpperLegTwist3_doNotTouch/LeftUpperLegTwist3_twistInterface
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLeg/LeftUpperLegTwist_doNotTouch
+    m_Weight: 0
+  - m_Path: Root/Hips/LeftUpperLegTwist_ikHandle
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightLowerLeg
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightLowerLeg/joint1
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightLowerLeg/RightFoot
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightLowerLeg/RightFoot/RightToes
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightLowerLeg/RightFoot/RightToes/RightToesEnd
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightUpperLegTwist
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightUpperLegTwist/RightUpperLegTwist_null
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightUpperLegTwist1
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightUpperLegTwist1_doNotTouch
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightUpperLegTwist1_doNotTouch/RightUpperLegTwist1_twistInterface
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightUpperLegTwist2
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightUpperLegTwist2_doNotTouch
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightUpperLegTwist2_doNotTouch/RightUpperLegTwist2_twistInterface
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightUpperLegTwist3
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightUpperLegTwist3_doNotTouch
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightUpperLegTwist3_doNotTouch/RightUpperLegTwist3_twistInterface
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLeg/RightUpperLegTwist_doNotTouch
+    m_Weight: 0
+  - m_Path: Root/Hips/RightUpperLegTwist_ikHandle
+    m_Weight: 0
+  - m_Path: Root/Hips/Spine
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftElbow
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftHandGrip
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftIndexProximal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftIndexProximal/LeftIndexIntermediate
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftIndexProximal/LeftIndexIntermediate/LeftIndexDistal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftIndexProximal/LeftIndexIntermediate/LeftIndexDistal/LeftIndexDistalEnd
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftLowerArmTwist_ikHandle
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftMiddleProximal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftMiddleProximal/LeftMiddleIntermediate
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftMiddleProximal/LeftMiddleIntermediate/LeftMiddleDistal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftMiddleProximal/LeftMiddleIntermediate/LeftMiddleDistal/LeftMiddleDistalEnd
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftPinkyProximal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftPinkyProximal/LeftPinkyIntermediate
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftPinkyProximal/LeftPinkyIntermediate/LeftPinkyDistal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftPinkyProximal/LeftPinkyIntermediate/LeftPinkyDistal/LeftPinkyDistalEnd
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftRingProximal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftRingProximal/LeftRingIntermediate
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftRingProximal/LeftRingIntermediate/LeftRingDistal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftRingProximal/LeftRingIntermediate/LeftRingDistal/LeftRingDistalEnd
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftThumbProximal2
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftThumbProximal2/LeftThumbIntermediate
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftThumbProximal2/LeftThumbIntermediate/LeftThumbDistal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/LeftThumbProximal2/LeftThumbIntermediate/LeftThumbDistal/LeftThumbDistalEnd
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftLowerArmTwist
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftLowerArmTwist/LeftLowerArmTwist_null
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftLowerArmTwist1
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftLowerArmTwist1_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftLowerArmTwist1_doNotTouch/LeftLowerArmTwist1_twistInterface
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftLowerArmTwist2
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftLowerArmTwist2_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftLowerArmTwist2_doNotTouch/LeftLowerArmTwist2_twistInterface
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftLowerArmTwist3
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftLowerArmTwist3_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftLowerArmTwist3_doNotTouch/LeftLowerArmTwist3_twistInterface
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftLowerArmTwist_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftUpperArmTwist
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftUpperArmTwist/LeftUpperArmTwist_null
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftUpperArmTwist1
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftUpperArmTwist1_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftUpperArmTwist1_doNotTouch/LeftUpperArmTwist1_twistInterface
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftUpperArmTwist2
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftUpperArmTwist2_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftUpperArmTwist2_doNotTouch/LeftUpperArmTwist2_twistInterface
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftUpperArmTwist3
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftUpperArmTwist3_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftUpperArmTwist3_doNotTouch/LeftUpperArmTwist3_twistInterface
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArm/LeftUpperArmTwist_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/LeftShoulder/LeftUpperArmTwist_ikHandle
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/Neck
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/Neck/Head
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/Neck/Head/Head_null
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightElbow
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightHandGrip
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightIndexProximal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightIndexProximal/RightIndexIntermediate
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightIndexProximal/RightIndexIntermediate/RightIndexDistal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightIndexProximal/RightIndexIntermediate/RightIndexDistal/RightIndexDistalEnd
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightLowerArmTwist_ikHandle
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightMiddleProximal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightMiddleProximal/RightMiddleIntermediate
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightMiddleProximal/RightMiddleIntermediate/RightMiddleDistal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightMiddleProximal/RightMiddleIntermediate/RightMiddleDistal/RightMiddleDistalEnd
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightPinkyProximal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightPinkyProximal/RightPinkyIntermediate
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightPinkyProximal/RightPinkyIntermediate/RightPinkyDistal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightPinkyProximal/RightPinkyIntermediate/RightPinkyDistal/RightPinkyDistalEnd
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightRingProximal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightRingProximal/RightRingIntermediate
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightRingProximal/RightRingIntermediate/RightRingDistal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightRingProximal/RightRingIntermediate/RightRingDistal/RightRingDistalEnd
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightThumbProximal2
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightThumbProximal2/RightThumbIntermediate
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightThumbProximal2/RightThumbIntermediate/RightThumbDistal
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/RightThumbProximal2/RightThumbIntermediate/RightThumbDistal/RightThumbDistalEnd
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightLowerArmTwist
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightLowerArmTwist/RightLowerArmTwist_null
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightLowerArmTwist1
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightLowerArmTwist1_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightLowerArmTwist1_doNotTouch/RightLowerArmTwist1_twistInterface
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightLowerArmTwist2
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightLowerArmTwist2_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightLowerArmTwist2_doNotTouch/RightLowerArmTwist2_twistInterface
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightLowerArmTwist3
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightLowerArmTwist3_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightLowerArmTwist3_doNotTouch/RightLowerArmTwist3_twistInterface
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightLowerArm/RightLowerArmTwist_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightUpperArmTwist
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightUpperArmTwist/RightUpperArmTwist_null
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightUpperArmTwist1
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightUpperArmTwist1_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightUpperArmTwist1_doNotTouch/RightUpperArmTwist1_twistInterface
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightUpperArmTwist2
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightUpperArmTwist2_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightUpperArmTwist2_doNotTouch/RightUpperArmTwist2_twistInterface
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightUpperArmTwist3
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightUpperArmTwist3_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightUpperArmTwist3_doNotTouch/RightUpperArmTwist3_twistInterface
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArm/RightUpperArmTwist_doNotTouch
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Chest/UpperChest/RightShoulder/RightUpperArmTwist_ikHandle
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Weapon_Bone
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Weapon_Bone/AR_LHIK_Zero
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Weapon_Bone/AR_LHIK_Zero/AR_LHIK_Target
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Weapon_Bone/AR_RHIK_Zero
+    m_Weight: 1
+  - m_Path: Root/Hips/Spine/Weapon_Bone/AR_RHIK_Zero/AR_RHIK_Target
+    m_Weight: 1
+  - m_Path: Weapon
+    m_Weight: 0
+  - m_Path: Weapon/Weapon_Geometry
+    m_Weight: 0
