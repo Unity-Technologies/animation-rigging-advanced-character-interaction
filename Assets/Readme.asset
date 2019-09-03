@@ -13,45 +13,47 @@ MonoBehaviour:
   m_Name: Readme
   m_EditorClassIdentifier: 
   icon: {fileID: 2800000, guid: 77472013561064748becf0b9cdaa5628, type: 3}
-  title: Lightweight RP
+  title: Animation Rigging - Advanced Character Interaction
   sections:
-  - heading: Lightweight Render Pipeline
-    text: 'This template is a good starting point for developers focused on performance.
-      The Lightweight Render Pipeline offers both real-time lighting and baked lighting
-      in a single-pass forward renderer. This decreases the amount of necessary draw
-      calls, making LWRP idea for projects that must scale across platforms, including
-      mobile hardware. '
+  - heading: Animation Rigging - Advanced Character Interaction
+    text: 'Earlier this year we introduced the Animation Rigging package. Our initial
+      goal was to provide a suite of constraints that can be used to create different
+      rigs to alter or modify your animation at runtime.   We''ve been exploring many
+      of the possibilities that this package offers, pushing the boundaries between
+      runtime and authoring. This article sheds light on some of our recent Animation
+      Rigging experiments. PLEASE be aware that the state machine in the following
+      example is experimental, not necessarily representative of a viable production
+      example. We are simply exploring how a technical animator might author constraint
+      interactions with a state machine without needing to write any code.  We hope
+      this article will inspire you to explore and discover new ways to address the
+      animation challenges you face every day. To build a viable and complete animation
+      solution, we believe it''s in our best interest to find out what you discovered
+      and what you need. '
     linkText: 
     url: 
   - heading: 
-    text: 'The Lightweight Render Pipeline is currently still in development, so it
-      is subject to changes (API, UX, scope). As such, it is not covered by regular
-      Unity support. Please direct any questions to the:'
-    linkText: Preview Forum
-    url: https://forum.unity.com/categories/betas-experimental-features.86/
+    text: 'The Animation Rigging Package is currently in preview so it is still subject
+      to changes (API, UX, scope). As such, it is not covered by regular Unity support.
+      Please direct any questions to the:'
+    linkText: Animation Rigging Preview Forum Post
+    url: https://forum.unity.com/threads/new-animation-rigging-preview-package-available-for-unity-2019-1.661975/
   - heading: 
-    text: 'To read more about the Lightweight Render Pipeline, see this LWRP documentation
+    text: 'To read more about the Animation Rigging Package, see the documentation
       site: '
-    linkText: LWRP documentation site
-    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.lightweight@5.2/manual/index.html
-  - heading: 
-    text: 'This project also includes the new Shader Graph tool. With this tool, you
-      can create shaders with a visual node editor instead of writing code. Read more
-      about the Shader Graph here:'
-    linkText: Shader Graph
-    url: https://github.com/Unity-Technologies/ShaderGraph/wiki
-  - heading: 
-    text: 'This project also includes the new Post-processing stack, several presets
-      to jump-start development, and example content. To learn more about Post-processing
-      please refer to the wiki page located here:'
-    linkText: Post-processing
-    url: https://github.com/Unity-Technologies/PostProcessing/wiki
-  - heading: 
-    text: This project uses the new Package Manager to bring you the latest features
-      Unity has to offer. Open the Package Manager from Windows > Package Manager
-      and make sure you're using the most recent version of the Lightweight Render
-      Pipeline. To update packages, select your desired package from the list on the
-      left, and click the Update to button in the bottom right corner.
+    linkText: Animation Rigging Package Documentation Site
+    url: https://docs.unity3d.com/Packages/com.unity.animation.rigging@0.2/manual/index.html
+  - heading: Ninja Player Controls
+    text: "W/\u21D1: Move Forward,  S/\u21D3: Move Backward, A/\u21D0: Move Left,
+      S/\u21D2: Move Right, Tab: Holster/Switch Weapon, LMB/Ctrl: Fire 1 (Single Fire),
+      RMB/Alt: Fire 2 (Automatic Fire) "
     linkText: 
     url: 
-  loadedLayout: 1
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  loadedLayout: 0
