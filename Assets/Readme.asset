@@ -45,7 +45,7 @@ MonoBehaviour:
   - heading: Ninja Player Controls
     text: "W/\u21D1: Move Forward,  S/\u21D3: Move Backward, A/\u21D0: Move Left,
       S/\u21D2: Move Right, Tab: Holster/Switch Weapon, LMB/Ctrl: Fire 1 (Single Fire),
-      RMB/Alt: Fire 2 (Automatic Fire) "
+      RMB/Alt: Fire 2 (Automatic Fire), MMB/Shift: Reload (Assault-Rifle & Pistol)"
     linkText: 
     url: 
   - heading: 
