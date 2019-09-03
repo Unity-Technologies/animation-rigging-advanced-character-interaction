@@ -1,5 +1,7 @@
 Library
 Logs
 obj
+ProjectSettings
+.idea
 *.sln
 *.csproj
