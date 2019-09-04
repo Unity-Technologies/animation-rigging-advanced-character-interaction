@@ -15,6 +15,8 @@ public class player : MonoBehaviour
     private bool rifleON;
     private bool pistolON;
     private bool gunsOff;
+    float m_Timer = 0;
+    private bool inLocomotion;
 
     Animator anim;
 
@@ -29,9 +31,19 @@ public class player : MonoBehaviour
         smoothDirection = 0.1f;
         smoothSpeed = 0.1f;
         AltLeftHandGrip = 0;
+        inLocomotion = false;
     }
     void Update()
     {
+        if((Input.GetAxis("Horizontal")!=0) || (Input.GetAxis("Vertical")!=0))
+        {
+            inLocomotion = true;
+        }
+        else
+        {
+            inLocomotion = false;
+        }
+        
         float h = Input.GetAxis("Horizontal");
         h = Mathf.SmoothDamp(anim.GetFloat("Direction"), h, ref velocityDir, smoothDirection);
         anim.SetFloat("Direction", h);
@@ -58,21 +70,28 @@ public class player : MonoBehaviour
             anim.SetBool("Fire2", false);
         }
 
-        if (Input.GetKeyDown(KeyCode.Tab) && (gunsOff == true))
+        if (Input.GetButtonDown("Fire3") && (m_Timer > 0.2f))
+        {
+            anim.SetTrigger("Reload");
+            m_Timer = 0;
+        }
+        m_Timer += Time.deltaTime;
+
+        if (Input.GetButtonDown("Jump") && (gunsOff == true) && (inLocomotion == false))
         {
             gunsOff = false;
             rifleON = true;
             anim.SetLayerWeight(3, 1f);
             anim.SetLayerWeight(4, 0f);
         }
-        else if (Input.GetKeyDown(KeyCode.Tab) && (rifleON == true))
+        else if (Input.GetButtonDown("Jump") && (rifleON == true) && (inLocomotion == false))
         {
             rifleON = false;
             pistolON = true;
             anim.SetLayerWeight(3, 0f);
             anim.SetLayerWeight(4, 1f);
         }
-        else if (Input.GetKeyDown(KeyCode.Tab) && (pistolON == true))
+        else if (Input.GetButtonDown("Jump") && (pistolON == true) && (inLocomotion == false))
         {
             pistolON = false;
             rifleON = false;

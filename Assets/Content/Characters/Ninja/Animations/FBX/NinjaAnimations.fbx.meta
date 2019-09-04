@@ -103,13 +103,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: 01 - Default 2
+    second: {fileID: 2100000, guid: cf0ce402aff063e4b972cd6fc5d7578e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Pistol_01
-    second: {instanceID: 0}
+    second: {fileID: 2100000, guid: 43f13b8d93d8b4141a6e78cfa89df002, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ninja_cloth_material
+    second: {fileID: 2100000, guid: bbc2f903bad3b4d4788075000113cb08, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ninja_material
-    second: {fileID: 2100000, guid: 4fa619acfe547954b9ec5490f7a33703, type: 2}
+    second: {fileID: 2100000, guid: cf0ce402aff063e4b972cd6fc5d7578e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: weaponsPBR
+    second: {fileID: 2100000, guid: 78dc05882c7f1794299db5ae194c4290, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -780,7 +795,7 @@ ModelImporter:
       takeName: Reload_Pistol
       internalID: -6357350827480409535
       firstFrame: 0
-      lastFrame: 75
+      lastFrame: 60
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

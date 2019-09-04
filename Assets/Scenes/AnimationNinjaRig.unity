@@ -1170,7 +1170,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.01
+  near clip plane: 0.1
   far clip plane: 5000
   field of view: 40
   orthographic: 0
@@ -1197,8 +1197,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2002964081}
-  m_LocalRotation: {x: 0.032113116, y: -0.028889487, z: 0.00092858967, w: 0.99906623}
-  m_LocalPosition: {x: 0.44, y: 1.5, z: -0.8}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3, y: 1.4, z: -1.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1410,51 +1410,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7513306385803973780, guid: b726da70b3347c24db19311270173dfe,
-        type: 3}
-      propertyPath: m_Weight
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7513306385249743954, guid: b726da70b3347c24db19311270173dfe,
-        type: 3}
-      propertyPath: m_Weight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8911192485400120599, guid: b726da70b3347c24db19311270173dfe,
-        type: 3}
-      propertyPath: m_Weight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7513306385101389166, guid: b726da70b3347c24db19311270173dfe,
-        type: 3}
-      propertyPath: m_Weight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7513306386042585239, guid: b726da70b3347c24db19311270173dfe,
-        type: 3}
-      propertyPath: m_Weight
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8911192485153753500, guid: b726da70b3347c24db19311270173dfe,
-        type: 3}
-      propertyPath: m_Data.m_SourceObjects.m_Item0.weight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8911192485153753500, guid: b726da70b3347c24db19311270173dfe,
-        type: 3}
-      propertyPath: m_Data.m_SourceObjects.m_Item1.weight
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8911192485153753500, guid: b726da70b3347c24db19311270173dfe,
-        type: 3}
-      propertyPath: m_Data.m_SourceObjects.m_Item2.weight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243820286606561579, guid: b726da70b3347c24db19311270173dfe,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b726da70b3347c24db19311270173dfe, type: 3}
