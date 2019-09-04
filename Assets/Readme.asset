@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Readme
   m_EditorClassIdentifier: 
   icon: {fileID: 2800000, guid: 77472013561064748becf0b9cdaa5628, type: 3}
-  title: Animation Rigging - Advanced Character Interaction
+  title: 'Advanced Animation Rigging: Character and Props interaction'
   sections:
-  - heading: Animation Rigging - Advanced Character Interaction
+  - heading: 'Advanced Animation Rigging: Character and Props interaction'
     text: 'Earlier this year we introduced the Animation Rigging package. Our initial
       goal was to provide a suite of constraints that can be used to create different
       rigs to alter or modify your animation at runtime.   We''ve been exploring many

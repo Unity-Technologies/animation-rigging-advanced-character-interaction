@@ -35,7 +35,8 @@ public class player : MonoBehaviour
     }
     void Update()
     {
-        if((Input.GetAxis("Horizontal")!=0) || (Input.GetAxis("Vertical")!=0))
+        if((anim.GetFloat("Direction")>0.1f || anim.GetFloat("Direction")<-0.1f) || (anim.GetFloat("Speed")>0.1f || anim.GetFloat("Speed")<-0.1f))
+        //if((Input.GetAxis("Horizontal")>0.01f || Input.GetAxis("Horizontal")<-0.01f) || (Input.GetAxis("Vertical")>0.01f || Input.GetAxis("Vertical")<-0.01f))
         {
             inLocomotion = true;
         }
@@ -59,7 +60,7 @@ public class player : MonoBehaviour
         else
         {
             anim.SetBool("Fire1", false);
-        }
+        }    
 
         if (Input.GetButton("Fire2"))
         {
