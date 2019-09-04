@@ -36,7 +36,6 @@ public class player : MonoBehaviour
     void Update()
     {
         if((anim.GetFloat("Direction")>0.1f || anim.GetFloat("Direction")<-0.1f) || (anim.GetFloat("Speed")>0.1f || anim.GetFloat("Speed")<-0.1f))
-        //if((Input.GetAxis("Horizontal")>0.01f || Input.GetAxis("Horizontal")<-0.01f) || (Input.GetAxis("Vertical")>0.01f || Input.GetAxis("Vertical")<-0.01f))
         {
             inLocomotion = true;
         }
